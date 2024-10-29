@@ -1,5 +1,9 @@
 # PPM Reader for Arduino
 
+KDS  All the below  is true I modified the code to allow for an inverted PPM signal (works with TBS recievers) and added some adjusters for the timing values to again sync up with a TBS nano.
+
+
+
 PPM Reader is an interrupt based [pulse-position modulation](https://en.wikipedia.org/wiki/Pulse-position_modulation) (PPM) signal reading library for Arduino. Its purpose is to provide an easy to use, non-blocking solution for decoding the signal from an RC receiver that is able to encode data from multiple channels as PPM.
 
 A typical PPM signal which PPM Reader is able to decode is shown below:
